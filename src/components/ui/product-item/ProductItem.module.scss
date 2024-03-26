@@ -1,0 +1,9 @@
+.item {
+  .img {
+    @apply border border-solid mb-4 h-44 w-full bg-cover bg-center  bg-no-repeat;
+  }
+
+  > .price {
+    @apply text-lg;
+  }
+}
